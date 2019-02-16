@@ -1,0 +1,14 @@
+{
+  "name": "sass_portfolio",
+  "version": "1.0.0",
+  "description": "my portfolio site made with Sass and a lot of other things",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Kathy C.",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
